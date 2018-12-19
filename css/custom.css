@@ -6,16 +6,9 @@
 .pinkBackGroundPale {
   background: #9999cc;
 }
-
-.navbar-default .navbar-nav>.active> a,
-.navbar-default .navbar-nav>.active> a:focus,
-.navbar-default .navbar-nav>.active> a:hover {
-  background: #6600a1; /* Anything you want */
+.active {
+   background:#6600a1; color:#6600a1;3
 }
-
-.navbar-default .navbar-nav>li>a:focus { color: #6600a1; }
-.navbar-default .navbar-brand:focus { color: #6600a1; }
-
 .icon-arrow-right {
   color: #ffffff;
   with: 5px;
