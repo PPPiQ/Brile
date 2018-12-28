@@ -118,3 +118,126 @@ a {
   background-color: #ededed;
   color: white;
 }
+
+/* Navigation - bootstrap modification */
+
+
+
+
+.navbar{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-nav {
+   list-style:none;
+   padding-right: 0;
+   padding-left: 0;
+}
+
+.nav-item:first-child {
+    padding-left: 0;
+}
+
+.nav-item:first-child a::before {
+  border:none;
+}
+
+.nav-item .nav-link {
+          padding-right: 0;
+          padding-left: 0;
+          width: 95%;
+      }
+
+.nav-item {
+  padding-right: 15px;
+  display:block;
+  width:100%;
+}
+
+.nav-item:last-child{
+  padding-right: 0;
+}
+
+.nav-item:last-child .nav-link{
+  padding-right: 0;
+}
+
+.nav-item:last-child a::after {
+  border:none;
+  padding-right: 0;
+}
+
+.nav-item + .nav-item {
+  padding-left: 0px;
+}
+
+.nav-item  a {
+     color:#FFF;
+     background: #9999cc;
+     text-decoration: none;
+     position:relative  ;
+     height: 40px;
+     line-height:40px;
+     padding: 0 10px 0 5px;
+     text-align: center;
+     margin-bottom:0px;
+     border-left: 7px;
+   }
+
+.nav-item + .nav-item::before {
+  content: "";
+  border-left-color: transparent;
+  color: #9999cc;
+  fill: red;
+
+}
+
+.nav-item a::before,  .nav-item a::after  {
+  content: "";
+  position: absolute;
+  top: 0;
+  border:0 solid #9999cc;
+  border-width:20px 10px;
+  width: 0;
+  height: 0;
+
+}
+
+.nav-item a::before  {
+  left:-20px;
+  border-left-color:transparent;
+}
+
+.nav-item a::after {
+  left: 100%;
+  border-color:transparent;
+  border-left-color:#9999cc;
+}
+
+.nav-item a:hover{
+  background-color: #6600a1;
+
+}
+
+.nav-item a:hover::before{
+  border-color:#6600a1;
+  border-left-color:transparent;
+}
+
+.nav-item a:hover::after{
+          border-left-color:#6600a1;
+}
+
+.nav-item a:active{
+        background-color: green;
+}
+
+.nav-item a:active::before{
+          border-color:green;
+          border-left-color:transparent;
+         }
+
+.nav-item a:active::after {
+          border-left-color:green;
+        }
