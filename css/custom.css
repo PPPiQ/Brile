@@ -3,7 +3,7 @@
     --light-purple: #9999cc;
     --white: white;
     --grey: #ededed;
-    --light-grey: #00bb3e;
+    --light-green: #00bb3e;
 }
 
 .pinkBackGround {
@@ -94,13 +94,13 @@ div.stripe {
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before{
-    background-color:var(--light-grey);;
+    background-color:var(--light-green);;
 }
 .custom-checkbox .custom-control-input:checked~.custom-control-label::after{
-    background-color:var(--light-grey);;
+    background-color:var(--light-green);;
   }
 .custom-control-input:active~.custom-control-label::before{
-    background-color:var(--light-grey);;
+    background-color:var(--light-green);;
 }
 
 a {
