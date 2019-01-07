@@ -88,7 +88,7 @@ div.stripe {
     background-color:var(--grey);
     display: inline-block;
     border-radius: 0px;
-    background: rgba(0, 0, 0, 0.5) url(../img/dot.png) no-repeat;
+    background: rgba(0, 0, 0, 0.5) url("../img/dot.png") no-repeat;
     background-position: center;
     fill: var(--grey);
 }
